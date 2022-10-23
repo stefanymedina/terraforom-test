@@ -1,5 +1,5 @@
 variable "names-ec2" {
-  type = list
+  type    = list(any)
   default = ["dev-ec2", "prod-ec2", "au-ec2"]
 }
 
